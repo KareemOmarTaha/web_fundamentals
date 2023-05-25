@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    font-family: sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -2%;
+}
+.header h1 {
+    margin: 5% 1% 1% 1%;
+    font-size: 330%;
+    color: #474747;
+    font-weight:lighter;
+}
+.header span {
+    color: #22659e;
+}
+.header img {
+    width: 12%;
+    height: 10%;
+    position: relative;
+    top: 22px;
+
+}
+.blue-header {
+    display: flex;
+    justify-content:flex-start;
+    background-color: #457ba9 ;
+    padding: 1.5% 0%;
+}
+.blue-header h1 {
+    padding-left: 3%;
+    color: white;
+
+}
+.white {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    flex: 1;
+}
+.right {
+    flex: 3;
+}
+.left h4 , .left h5 , .img-text {
+    margin: 5% 0%;
+}
+.left h4 span {
+color: red;
+}
+.left h5 span {
+    color: #22659e ;
+}
+.left .button1 {
+    background-color:#3573a8 ;
+    padding: 3% 9%;
+    border-radius: 8px;
+    margin: 1% 0%;
+
+    font-weight: bold;
+    font-size: large;
+}
+.left .button1 a {
+    color: white;
+    text-decoration: none;
+}
+.left .button2 {
+    background-color:#ec9b34 ;
+    padding: 3% 3%;
+    border-radius: 8px;
+    margin-bottom:  10%;
+
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.img-text button {
+    background-color: #37c9df;
+    padding: 4% 9%;
+    border-radius: 8px;
+    position: relative;
+    bottom: 168px;
+    right: 65px;
+    color: white;
+
+}
+.img-text .ninja {
+    width: 37%;
+    position: relative;
+    bottom: 204px;
+    left: 50px;
+}
+.img-text .ad {
+    width: 80%;
+}
+.img-text h3 {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    position: relative;
+    top: 99px;
+    right: 28px;
+    margin-top: -33%;
+
+}
+.dns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    height: 9%;
+}
+.dns .home {
+    width: 40%;
+    height: 28% ;
+
+}
+.dns  a {
+    color:#2869a0 ;
+    text-decoration: none;
+}
+.dns h5 {
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: large;
+    font-weight: lighter;
+}
+.dnshome {
+    display: flex;
+    justify-content: flex-start;
+}
+.phone {
+    display: flex;
+    justify-content: flex-end;
+}
+.phone img {
+    height: 91%;
+    width: 83%;
+}
+.phone h1 {
+    color:hsl(188.34deg 100% 43.73%) ;
+}
+hr {
+
+    border-top: 1px solid black;
+
+}
+.client {
+    color: #2869a0;
+}
+.right span {
+    color:#37c9df;
+}
+.bold {
+font-weight: bold;
+}
+.right li {
+    margin: 1% 0% 1% 7%;
+    
+}
+
+.client-server {
+    width: 42%;
+    height:14%;
+    margin: 2% 0% 2% 33%;
+}
+.border {
+    display: flex;
+    justify-content:flex-start ;
+    border: 5px solid #0085e0 ;
+    border-bottom: none;
+    padding: 2%;
+}
+.border img {
+    height: 100%;
+    width: 85%;
+}
+.border a {
+    color: #37c9df;
+}

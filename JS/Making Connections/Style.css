@@ -1,0 +1,257 @@
+* {
+    margin: 0 auto;
+    font-family: cursive;
+}
+
+/* Nav Bar Style */
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: -10px -10px 0px -10px;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.nav-color {
+    background-color: black;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    margin-left: -1px;
+}
+
+.title a,
+h1 {
+    margin: 20px;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.btn button {
+    background-color: aqua;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 15px;
+}
+
+.white-page {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+
+.left-side {
+    width: 550px;
+    height: 1000px;
+}
+
+/* User-Card style */
+.user-card {
+    height: 290px;
+    width: 550px;
+    font-family: cursive;
+    margin-top: -58px;
+
+}
+
+.top {
+    background-color: teal;
+    height: 135px;
+    width: inherit;
+    border-radius: 3px;
+
+}
+
+.bottom {
+    height: 280px;
+    padding-left: 35px;
+    border: 3px solid gray;
+    border-radius: 3px;
+}
+
+.city {
+    display: inline;
+    margin-left: 20px;
+    font-size: larger;
+    vertical-align: 4px;
+}
+
+.name {
+    color: black;
+    font-size: xx-large;
+    margin-top: 40px;
+
+
+}
+
+.gear {
+    height: 20px;
+    position: relative;
+    bottom: -3px;
+    margin-right: 5px;
+}
+
+.para {
+
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.bottom a {
+    color: hsl(208.68deg 85% 31.37%);
+}
+
+.user {
+    height: 100px;
+    border: 5px solid gray;
+    border-radius: 200px;
+    background-color: white;
+    position: relative;
+    top: 184px;
+    left: 47px;
+}
+
+/* Education style */
+.edu {
+    position: relative;
+    top: 300px;
+}
+
+.edu h4 {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(0deg 0% 20%);
+    padding: 20px 0 20px 20px;
+}
+
+.edu .p1 {
+    font-size: x-large;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.edu .p2 {
+    color: grey;
+    padding-bottom: 20px;
+}
+
+.edu div {
+    border: 3px solid rgb(179, 175, 175);
+    /* margin-top: -20px; */
+    padding-left: 20px;
+    border-bottom: none;
+}
+
+/* Right Side */
+.right-side {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.header,
+.header2 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: hsl(0deg 0% 20%);
+    height: 55px;
+    align-items: center;
+}
+
+.con,
+.con1 {
+    color: white;
+}
+
+.num2,
+.num3 {
+    border: 4px solid transparent;
+    border-radius: 78%;
+    height: 33px;
+    width: 29px;
+    background-color: hsl(0deg 0% 80%);
+    text-align: center;
+}
+
+.Todd {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10%;
+}
+.Phill {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10% -3% 10% -1%;;
+}
+
+.num3 {
+    border: 4px solid transparent;
+    border-radius: 78%;
+    height: 33px;
+    width: 57px;
+    background-color: hsl(0deg 0% 80%);
+    text-align: center;
+}
+
+.adrien,
+.anne,
+.alayne,
+.arry {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10% 0%;
+
+}
+.acpdeny {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 45%;
+}
+.imgname {
+    display: flex;
+    justify-content: flex-start;
+}
+.imgname h2 {
+    margin-right: -33%;
+}
+.Phill h2 {
+    margin-right: -16%;
+}
+.Up {
+    padding-top: 20%;
+}
+.link {
+    border-top: 2px solid #cccccc;
+    padding: 3%;
+}
+.link a {
+
+    margin-left: 3%;
+}
+.border-down {
+    border: 2px solid #cccccc;
+}
+.up-down {
+    border: 2px solid #cccccc;
+}
+.down {
+    margin-top: 15%;
+}
+.border-down img {
+    margin-left: 6%;
+}
+.border-down h2 {
+    margin-left: -15%;
+}

@@ -1,0 +1,42 @@
+use books_schema;
+insert into authors ( name )
+values ( "Jane Austen" ) , ( "Emily Dickinson") , (" Fyodor Dostoevsky") , ("William Shakespeare") , ("Lau Tzu");
+
+insert into books ( title )
+values ( "C Sharp" ) , ( " Java") , (" Python") , ("PHP") , ("Ruby");
+
+update books_schema.books 
+set title = "C#" 
+where id = 1 ;
+
+update authors 
+set name = "bill" 
+where id = 4 ;
+
+insert into favorites (author_id,book_id)
+values (1,1),(1,2),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4),(4,5);
+
+select * from books 
+join favourites on books.id = favourites.book_id
+join authors on authors.id = favourites.author_id
+where books.id = 3;
+
+
+delete from favourites 
+where book_id = 3 
+AND author_id = 2 ;
+
+insert into favourites (author_id,book_id)
+values (5,2);
+
+select * from authors
+join favourites on authors.id = favourites.author_id
+join books on books.id = favourites.book_id
+where  authors.id = 3;
+
+
+
+select * from books
+join favourites ON books.id = favourites.book_id
+join authors ON authors.id = favourites.author_id
+where books.id = 5;

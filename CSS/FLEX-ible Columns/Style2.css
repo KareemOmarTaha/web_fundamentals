@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    height: 300px;
+
+}
+
+.col {
+    background-color: blue;
+    flex: 1;
+    margin-right: 5px;
+
+}
+
+.col-2 {
+    background-color: blueviolet;
+    flex: 2;
+}

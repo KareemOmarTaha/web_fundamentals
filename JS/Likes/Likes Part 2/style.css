@@ -1,0 +1,54 @@
+.container {
+    font-family: cursive;
+    width: 1000px;
+    margin: 0 auto;
+}
+.u-nav {
+    text-align: center;
+}
+.nav-bar {
+    background-color: black;
+    color: white;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    flex: 3 ; 
+    margin-left: 5%;
+}
+.left {
+    text-align: center;
+    flex: 1;
+    border: 2px solid black;
+    height: fit-content;
+
+}
+.left img {
+    display: block  ;
+    height: 35%;
+    width: 35%;
+    position: relative;
+    left: 77px;
+    padding: 2% 0%;
+}
+
+.like-boxes {
+    border: 2px solid black;
+    margin: 2% 0%;
+}
+.up {
+    display: flex;
+    justify-content:space-between; 
+}
+
+.up h1 {
+    margin: 0% 5%;
+}
+.up button {
+    background-color: goldenrod;
+padding: 0% 5%;
+margin: 0% 5%;
+}

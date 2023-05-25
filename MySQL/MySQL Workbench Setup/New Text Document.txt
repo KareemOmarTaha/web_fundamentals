@@ -1,0 +1,12 @@
+use twitter;
+select * from twitter.tweets;
+
+insert into tweets ( tweet , user_id , created_at , updated_at ) 
+values ( "this is coool" , 5 , now() , now() );
+
+update tweets 
+set tweet = "helloooo" , user_id =5 , created_at = now() , updated_at = now()
+where tweets.id = 1;
+
+delete from tweets 
+where id > 15 ;

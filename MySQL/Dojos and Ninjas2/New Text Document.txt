@@ -1,0 +1,54 @@
+insert into dojos ( id , name , created_at , updated_at )
+select 1 , "sowrd" , now() , now()
+union all
+select 2 , "kong-fu" , now() , now()
+union all
+select 3 , "boxing" , now() , now();
+
+
+delete from dojos 
+where id > 0 ; 
+
+
+insert into dojos ( id , name , created_at , updated_at )
+select 1 , "sowrd" , now() , now()
+union all
+select 2 , "kong-fu" , now() , now()
+union all
+select 3 , "boxing" , now() , now();
+
+insert into ninjas ( id , name , dojo_id )
+values ( 1 , "yazan" , 1 ); 
+
+insert into ninjas ( id , name , dojo_id )
+values ( 2 , "muath" , 1 ); 
+
+insert into ninjas ( id , name , dojo_id )
+values ( 3 , "asfsdf" , 1 ); 
+
+insert into ninjas ( id , name , dojo_id )
+values ( 4 , "yazan" , 2 ); 
+
+insert into ninjas ( id , name , dojo_id )
+values ( 5 , "muath" , 2 ); 
+
+insert into ninjas ( id , name , dojo_id )
+values ( 6 , "mfdgerg" , 2 ); 3
+
+insert into ninjas ( id , name , dojo_id )
+values ( 7 , "jkh" , 3 ); 
+
+insert into ninjas ( id , name , dojo_id )
+values ( 8 , "yu" , 3 ); 
+
+insert into ninjas ( id , name , dojo_id )
+values ( 9 , "ty" , 3 ); 
+
+select * from ninjas
+where dojo_id = 1;
+
+select * from ninjas
+where dojo_id = 3;
+
+select * from ninjas
+where dojo_id = 2;

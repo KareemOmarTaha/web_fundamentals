@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+    height: 300px;
+}
+
+.col-2 {
+    background-color: coral;
+    flex: 2;
+    margin-right: 5px;
+}
+
+.col-3 {
+    background-color: darkred;
+    flex: 3;
+}

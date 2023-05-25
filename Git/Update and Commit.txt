@@ -1,0 +1,6 @@
+forked a file 
+cloned it 
+then made changes to it 
+added it to the stage area
+commited and pushed it
+then lastly made a pull request 

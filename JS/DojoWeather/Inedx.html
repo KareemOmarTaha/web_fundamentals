@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+        <div class="nav-bar">
+                <h1>DojoWeather</h1>
+            <div class="city">
+                <button id="Hebron" onclick="showAlert(this.id)">Hebron</button>
+                <button id="Jerusalem" onclick="showAlert(this.id)">Jerusalem</button>
+                <button id="Nablus" onclick="showAlert(this.id)">Nablus</button>
+            </div>
+        </div>
+        <div class="container">
+        <div class="white-body">
+            <div class="top">
+                <div>
+                    <h2>Ramallah</h2>
+                </div>
+                <div class="temp-sec">
+                    <p>show temperature in</p>
+                    <select onchange="changeTemp(this)" name="temp" id="temp">
+                        <option value="C"><span>&#8451;</span></option>
+                        <option value="F">&#8457;</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <div class="middle">
+                <div class="rainy">
+                    <h3>Today</h3>
+                    <img src="assets/some_rain.png" alt="rainy">
+                    <h4>some rain</h4>
+                    <h2 class="hot" id="temp1" >24</h2>
+                    <h2 class="cold" id="temp2" >18</h2>
+                </div>
+                <div class="sunny1">
+                    <h3>Tomorrow</h3>
+                    <img src="assets/some_sun.png" alt="sunny">
+                    <h4>some sun</h4>
+                    <h2 class="hot" id="temp3" >27</h2>
+                    <h2 class="cold" id="temp4" >19</h2>
+                </div>
+                <div class="cloudy">
+                    <h3>Friday</h3>
+                    <img src="assets/some_clouds.png" alt="cloudy">
+                    <h4>some clouds</h4>
+                    <h2 class="hot" id="temp5" >21</h2>
+                    <h2 class="cold" id="temp6" >16</h2>
+                </div>
+                <div class="sunny2">
+                    <h3>Saturday</h3>
+                    <img src="assets/some_sun.png" alt="sunny">
+                    <h4>some sun</h4>
+                    <h2 class="hot" id="temp7" >26</h2>
+                    <h2 class="cold" id="temp8" >21</h2>
+                </div>
+            </div>
+            <div class="bottom">
+                <img src="assets/cookie.png" alt="cookie">
+                <div class="text">
+                    <h3>Stop! Coockie time</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam eligendi animi laboriosam odit, hic expedita <br> harum sunt provident. Perferendis, a. <br> Unde eveniet ipsum maxime odio nulla recusandae fugiat temporibus. <a href="#">quod...</a> </p>
+                </div>
+                <button onclick="hideCockie()">I Accept</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+.container {
+    height: 350px;
+    width: 700px;
+    margin: 0 auto;
+    font-family: cursive;
+
+
+}
+
+.top {
+    background-color: teal;
+    height: 100px;
+    width: inherit;
+    border-radius: 3px;
+
+}
+
+.bottom {
+    height: 250px;
+    padding-left: 35px;
+    border: 3px solid gray;
+    border-radius: 3px;
+}
+
+.city {
+    display: inline;
+    margin-left: 20px;
+    font-size: larger;
+    vertical-align: 4px;
+}
+
+.name {
+    font-size: xx-large;
+    margin-top: 40px;
+
+
+}
+
+.gear {
+    height: 15px;
+    position: relative;
+    left: -5px;
+    bottom: -3px;
+}
+
+.para {
+    font-size: small;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.para1 {
+    margin-bottom: -10px;
+}
+
+.user {
+    height: 100px;
+    border: 5px solid gray;
+    border-radius: 200px;
+    background-color: white;
+    position: relative;
+    top: 145px;
+    left: 47px;
+}

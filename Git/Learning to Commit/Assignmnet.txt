@@ -1,0 +1,10 @@
+cd desktop
+mkdir test
+cd test 
+git init
+git add style.css
+git add index.css
+git commit index.html
+git commit style.css
+revet index.html id
+git commit index.html
